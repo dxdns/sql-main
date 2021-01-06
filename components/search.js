@@ -46,7 +46,7 @@ export default function Search() {
         className={styles.search}
         onChange={onChange}
         onFocus={onFocus}
-        placeholder='Search posts'
+        placeholder='pesquisar...'
         type='text'
         value={query}
       />

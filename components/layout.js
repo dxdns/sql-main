@@ -3,14 +3,14 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Blog'
-export const siteTitle = 'search - dxdns'
+const name = 'comandos sql'  
+export const siteTitle = 'sql - dxdns'
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div className={styles.container}> 
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/dxdns.png" />
         <meta
           name="description"
           content="Learn how to build a personal website using Next.js"
@@ -36,7 +36,7 @@ export default function Layout({ children, home }) {
           </>
         ) : (
           <>
-            <Link href="/">
+            <Link href="/sql">
               <a>
                 <img
                   src="/images/profile.jpg"
@@ -46,7 +46,7 @@ export default function Layout({ children, home }) {
               </a>
             </Link>
             <h2 className={utilStyles.headingLg}>
-              <Link href="/">
+              <Link href="/sql">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
             </h2>
@@ -56,8 +56,8 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
+          <Link href="/sql">
+            <a>← voltar</a>
           </Link>
         </div>
       )}

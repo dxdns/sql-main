@@ -3,12 +3,15 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
+import styles from '../../styles/Home.module.css'
 
 export default function Post({ postData }) {
   return (
+    <div className={styles.container}>
+      <main className={styles.main}>
     <Layout>
       <Head>
-        <title>{postData.title}</title>
+        <title>{postData.title} - dxdns</title>
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
@@ -18,6 +21,8 @@ export default function Post({ postData }) {
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
+    </main>
+    </div>
   )
 }
 
