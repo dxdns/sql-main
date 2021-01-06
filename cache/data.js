@@ -1,1 +1,0 @@
-export const posts = [{"id":"ajuste-tributacao-nota-compra","title":"Ajuste tributação nota de compra"},{"id":"ssg-ssr","title":"When to Use Static Generation v.s. Server-side Rendering"}]
