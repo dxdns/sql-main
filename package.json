@@ -9,6 +9,8 @@
     "cache-posts": "node scripts/cache.js"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
     "date-fns": "^2.16.1",
     "fuzzy-search": "^3.2.1",
