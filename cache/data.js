@@ -1,1 +1,1 @@
-export const posts = [{"id":"pre-rendering","title":"Two Forms of Pre-rendering"},{"id":"ssg-ssr","title":"When to Use Static Generation v.s. Server-side Rendering"}]
+export const posts = [{"id":"ajuste-tributacao-nota-compra","title":"Ajuste tributação nota de compra"},{"id":"ssg-ssr","title":"When to Use Static Generation v.s. Server-side Rendering"}]
