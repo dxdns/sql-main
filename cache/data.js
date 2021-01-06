@@ -1,0 +1,1 @@
+export const posts = [{"id":"ajuste-tributacao-nota-compra","title":"AJUSTAR TRIBUTAÇÃO DO PRODUTO PELA NOTA DE COMPRA"},{"id":"teste","title":"teste"}]
