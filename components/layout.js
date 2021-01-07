@@ -3,7 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'comandos sql'  
+const name = 'comandos sql ✨'  
 export const siteTitle = 'sql - dxdns'
 
 export default function Layout({ children, home }) {
@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/dxdns.png" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="dxdns"
         />
         <meta
           property="og:image"
@@ -27,22 +27,22 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <img
+            {/* <img
               src="/images/profile.jpg"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
-            />
+            /> */}
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
           <>
             <Link href="/sql">
               <a>
-                <img
+                {/* <img
                   src="/images/profile.jpg"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
-                />
+                /> */}
               </a>
             </Link>
             <h2 className={utilStyles.headingLg}>

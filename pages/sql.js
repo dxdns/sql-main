@@ -19,7 +19,7 @@ export default function sql() {
         </section>
       </Layout>
       <Link href="/">
-        <a className={styles.backToHome}>&larr; voltar</a>
+        <a className={utilStyles.backHome}>&larr; voltar</a>
       </Link>
       </main>
     </div>
